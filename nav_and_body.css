@@ -1,0 +1,75 @@
+*{
+margin: 0px;
+padding: 0px;    
+}
+body{
+    max-width: 100%;
+    margin: 0px auto; 
+    padding: 12px;   
+    background-color:black;
+}
+#hmm{
+border-radius: 5px;    
+}
+
+
+#hm{
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    border-radius: 8px; 
+    padding: 8px;  
+    font-weight: bold;
+}
+#hm:hover{
+background-color:aliceblue;
+color: black;
+transition: 1s;
+}
+
+
+#au{
+    background-color:A0D2EB;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    border-radius: 8px;  
+    padding: 8px; 
+    font-weight: bold;
+}
+#au:hover{
+background-color:aliceblue;
+color: black;
+transition: 1s;
+}
+
+#ps{
+    background-color:A0D2EB;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-radius: 8px;   
+    padding: 8px;
+    font-weight: bold;
+    
+}
+#ps:hover{
+background-color: aliceblue;
+color:black;
+transition: 1s;
+}
+
+#fb{
+    background-color:A0D2EB;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    border-radius: 8px;   
+    padding: 8px;
+    font-weight: bold;
+}
+#fb:hover{
+background-color:aliceblue;
+color: black;
+transition: 1s;
+}

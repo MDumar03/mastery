@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.team_mastery_feedbacks.edu.co.uk</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="nav_and_body.css">
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+      .container{
+      background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(feed.jpg);
+      max-width: 100%;
+      height: 90vh;
+      background-repeat:no-repeat ;
+      background-size: cover;
+      }
+     .part-1{
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 25px;
+      position: relative;
+      top: 50px;
+      left: 20px;
+      font-weight: bold;
+     
+     }
+     .part-1 h1{
+      color:#33e0ff ;
+      font-weight: bold;
+     }
+     .part-1 h3{
+      color: aliceblue;
+      font-weight: bold;
+
+     }
+     .part-1 p{
+      color:#d299ff ;
+      font-weight: bold;
+     }
+      .part-2{
+       padding:20px ;
+       text-align: center;
+
+       position: relative;
+       top: 80px;
+
+       border: 3px solid white;
+       border-radius: 20px;
+
+      }
+     .weeks{
+      padding: 10px;
+      border-radius: 10px;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      border: 4px solid black;
+    
+     }
+    .back{
+     padding: 10px;
+     border-radius:10px ;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: bold;
+     border: 4px solid black;
+     height: 20vh;
+    }
+   .weeks:hover{
+    border:4px solid #d299ff ;
+    transition: 1s;
+   }
+
+   .back:hover{
+    border:4px solid #33e0ff ;
+    transition: 1s;
+
+   }
+
+    .send{
+     padding: 7px;
+     border-radius: 5px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: bold;
+     background-color:#d299ff;
+     border: solid 3px black;
+    }
+  .clear{
+    padding: 7px;
+    border-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+     font-weight: bold;
+     background-color: #d299ff;
+     border: solid 3px black;
+
+  }
+  .part-2 h2{
+    color: #d299ff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+.here{
+  color: #33e0ff;
+}
+
+.foot{
+max-width: 100%;
+margin: 0px auto;
+border-radius: 10px;
+background-color: aliceblue;
+padding: 20px;
+color: black;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.send:hover{
+color:black;
+background-color:aliceblue;
+transition: 0.9s;
+border:solid 3px black ;
+}
+.clear:hover{
+color:black;
+background-color:aliceblue;
+transition: 0.9s;
+border:solid 3px black ;
+}
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="logo-team-mastery-1.png" alt="" height="65px" width="95px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-light" id="hmm"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Team_Mastery_PP.html" id="hm">Home</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="about_us.html" id="au">About Us</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="presentations.html" id="ps">Presentations</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="feedbacks.html" id="fb">Feedback</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+  
+  <div class="container">
+     
+    <div class="row">
+      
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="part-1">
+          <h1>Give Us</h1>
+          <h3>Your Valueable Opinion.</h3>
+          <p>Let us  improve more...</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="part-2">
+          <h2>Feedback <span class="here">here!</span></h2>
+          <br>
+         <form action="https://api.web3forms.com/submit" method="POST">
+
+        
+        <input type="hidden" name="access_key" value="dfa4fc02-94b9-4fa2-8b5c-4c304dad8e89">  
+        <input type="text" name="Week" placeholder="Enter Week: " required class="weeks"><br><br>
+        <input type="text" name="feedback" placeholder="Write Your Feedback: " required class="back"><br><br>
+        
+      <div class="buttons"> 
+        <button type="submit" class="send">Send</button>
+        <button type="reset" class="clear">Clear</button>
+      </div>
+
+        </form>
+      </div>
+
+      </div>
+
+
+     </div>
+    
+  </div>
+   <br><br>
+
+
+
+
+
+
+<div class="foot">&copy; Designed by MD UMAR</div>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="popper.js"></script>
+    <script src="jquery.js"></script>
+</body>
+</html>

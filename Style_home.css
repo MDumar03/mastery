@@ -1,0 +1,151 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+max-width: 100%;
+margin: 0px auto; 
+padding: 12px;   
+background-color:black;
+
+}
+
+#hmm{
+border-radius: 5px;
+border: 2px solid aliceblue;
+}
+
+#ho{
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    border-radius: 8px; 
+    padding: 8px;  
+    font-weight: bold;
+}
+#ho:hover{
+background-color:aliceblue;
+color: black;
+transition: 1s;
+}
+
+
+#au{
+    background-color:A0D2EB;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    border-radius: 8px;  
+    padding: 8px; 
+    font-weight: bold;
+}
+#au:hover{
+background-color:aliceblue;
+color: black;
+transition: 1s;
+}
+
+#ps{
+    background-color:A0D2EB;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-radius: 8px;   
+    padding: 8px;
+    font-weight: bold;
+    
+}
+#ps:hover{
+background-color: aliceblue;
+color:black;
+transition: 1s;
+}
+
+#cn{
+    background-color:A0D2EB;
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    border-radius: 8px;   
+    padding: 8px;
+    font-weight: bold;
+}
+#cn:hover{
+background-color:aliceblue;
+color: black;
+transition: 1s;
+}
+.part-1{
+background-image:url(image_1.webp);
+max-width:100%;
+margin: 0px auto;
+height:90vh;
+color: aliceblue;
+padding: 40px;
+background-repeat:no-repeat ;
+background-size: cover;
+}
+
+.part-1 h1{
+color:#33e0ff;
+font-weight: bold;
+font-family:'Courier New', Courier, monospace;
+text-align: left;
+position:relative;
+margin-top: 90px;
+}
+.part-1 p{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.part-1 h2{
+font-weight: bold;  
+color:#d299ff;  
+font-family: 'Courier New', Courier, monospace;
+}
+.span-1{
+ color: #33e0ff;   
+}
+.we{
+color: aliceblue;
+}
+.simple{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 35px;
+    text-align: left;
+   font-weight: bolder;
+   }
+.image-part-2{
+padding: 20px;
+}   
+
+.simple h1{
+    color: #33e0ff;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+}
+.simple h3{
+    color:aliceblue;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+}
+.simple p{
+    color:#d299ff;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+}
+
+.footer{
+max-width: 98%;
+margin: 0 auto;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+background-color: aliceblue;
+color: black;
+padding: 15px;  
+border-radius: 10px;  
+}
